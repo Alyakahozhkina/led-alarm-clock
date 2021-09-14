@@ -1,2 +1,2 @@
 # led-alarm-clock
-My first landing page.
+My first landing page
