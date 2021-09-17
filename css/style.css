@@ -442,6 +442,47 @@ body, html {
 /* Footer */
 
 
+
+/* BUTTON-UP */
+#button-up {
+	display: inline-block;
+	position: fixed;
+	right: 30px;
+	bottom: 20px;			
+	color: #fff;
+	background-color: #1e51d0bb;
+	text-align: center;
+	font-size: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s; 
+    -o-transition: all 0.5s;  
+    transition: all 0.5s; 
+	opacity: 0;
+  	visibility: hidden;
+	z-index: 999;
+}
+#button-up i {
+	padding: 15px 16px;
+}
+#button-up:hover{
+	cursor: pointer;
+	background-color: #da0002bb;
+}
+.fixed-page #button-up.show {
+	display: none;
+}
+#button-up.show {
+	opacity: 1;
+	visibility: visible;
+}
+/* BUTTON-UP */
+
+
+
 /* MODAL-WINDOWS */
 .modal-windows .modal-dialog{
     max-width: 1000px;

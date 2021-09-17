@@ -337,6 +337,20 @@
     /* Footer */
 
 
+    /* BUTTON-UP */
+    #button-up {
+        right: 15px;
+        bottom: 10px;			
+        font-size: 26px;
+    }
+    #button-up i {
+        padding: 10px 11px;
+        margin-bottom: 0.5px;
+    }
+    /* BUTTON-UP */
+
+
+
     .modal-windows .modal-dialog .modal-content .modal-body p,
     .modal-windows .modal-dialog .modal-content .modal-body li {
 

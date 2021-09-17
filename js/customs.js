@@ -11,6 +11,25 @@ jQuery.noConflict();
 				$('.header-box-text').toggleClass('open-menu');
 				$('body').toggleClass('fixed-page');
 			});
+
+
+
+
+				// BUTTON-UP
+			let button = $('#button-up');	
+			$(window).scroll(function() {
+				if ($(window).scrollTop() > 700) {
+					button.addClass('show');
+				} else {
+					button.removeClass('show');
+				}
+			});	 
+			button.on('click', function(){
+			$('body, html').animate({
+			scrollTop: 0
+			}, 500);
+			return false;
+			});
 		
 			
 		var note = $('#note'),
